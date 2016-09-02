@@ -1,0 +1,38 @@
+twit sh:twit>casperjs casper.js --tweet='cookies 3' --cookies='/projects/twit/luka1.cookies'
+restoring cookies from /projects/twit/luka1.cookies
+finished restoring cookies from /projects/twit/luka1.cookies
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: https://mobile.twitter.com/compose/tweet, HTTP GET
+[debug] [phantom] Navigation requested: url=https://mobile.twitter.com/compose/tweet, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "https://mobile.twitter.com/compose/tweet"
+[debug] [phantom] Automatically injected jquery-3.1.0.min.js client side
+[debug] [phantom] Successfully injected Casper client-side utilities
+[info] [phantom] Step _step 2/3 https://mobile.twitter.com/compose/tweet (HTTP 200)
+[info] [phantom] Step _step 2/3: done in 5585ms.
+[info] [phantom] waitFor() finished in 40ms.
+[info] [phantom] Step then 3/4 https://mobile.twitter.com/compose/tweet (HTTP 200)
+[debug] [phantom] Capturing page to /projects/twit/3-tweetform-empty.jpg
+[info] [phantom] Capture saved to /projects/twit/3-tweetform-empty.jpg
+[debug] [phantom] Mouse event 'mousedown' on selector: textarea
+[debug] [phantom] Mouse event 'mouseup' on selector: textarea
+[debug] [phantom] Mouse event 'click' on selector: textarea
+[debug] [phantom] Capturing page to /projects/twit/4-tweetform-filled.jpg
+[info] [phantom] Capture saved to /projects/twit/4-tweetform-filled.jpg
+[debug] [phantom] Mouse event 'mousedown' on selector: button[type='button'][data-testid='tweet-button']
+[debug] [phantom] Mouse event 'mouseup' on selector: button[type='button'][data-testid='tweet-button']
+[debug] [phantom] Mouse event 'click' on selector: button[type='button'][data-testid='tweet-button']
+[info] [phantom] Step then 3/4: done in 5878ms.
+[info] [phantom] Step _step 4/4 https://mobile.twitter.com/compose/tweet (HTTP 200)
+[info] [phantom] Step _step 4/4: done in 5886ms.
+[debug] [phantom] url changed to "https://mobile.twitter.com/"
+[debug] [phantom] url changed to "https://mobile.twitter.com/home"
+[info] [phantom] waitFor() finished in 1915ms.
+[info] [phantom] Step then 5/5 https://mobile.twitter.com/home (HTTP 200)
+[debug] [phantom] Capturing page to /projects/twit/5-tweeted.jpg
+[info] [phantom] Capture saved to /projects/twit/5-tweeted.jpg
+[info] [phantom] Step then 5/5: done in 8006ms.
+[info] [phantom] Done 5 steps in 8009ms
+execute finished
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "about:blank"
